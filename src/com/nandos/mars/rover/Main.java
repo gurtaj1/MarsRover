@@ -8,10 +8,13 @@ public class Main {
 		rover.moveRover("LMLMLMLMM");
 		System.out.println(rover.getPosition());
 		
-		Rover rover = new Rover(plateau, new Position(3,3),'E');
+		rover = new Rover(plateau, new Position(3,3),'E');
 		rover.moveRover("MMRMMRMRRM");
 		System.out.println(rover.getPosition());
 
+		rover = new Rover(plateau, new Position(0,0),'N');
+		rover.moveRover("MMMMMRMRMMMMMLMLMMMMMRMRMMMMMLMLMMMMMRMRMMMMM");
+		System.out.println(rover.getPosition());
 	}
 
 }
