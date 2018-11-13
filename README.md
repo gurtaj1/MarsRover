@@ -20,7 +20,7 @@ When googling what commands to use to run the project I had come across a packag
 
 From the googling I had already done on this problem, a commonality I noticed was that there was a goal to search the entire grid. I went ahead and set out to do this and convinced myself that it was enough to complete this test.
 
-*Assumptions made:*
+**Assumptions made:**
 - My rover is a new and improved rover that does not run out of fuel.
 - My rover can move just as freely as the previous two rovers.
 
